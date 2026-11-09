@@ -16,8 +16,6 @@ Retrieval uses **FAISS** vector stores with HuggingFace embeddings (all-MiniLM-L
 |---|---|
 | `app.py` | Streamlit chat app — the full assistant with a web UI |
 | `conditional_RAG.py` | The same LangGraph assistant as a command-line app |
-| `sequential_base.py` | LangGraph practice: a sequential 3-step pipeline (input → edit → script → final output) |
-| `parallel_reducers.py` | LangGraph practice: parallel branches combined with reducers |
 | `academics_handbook.pdf` | Knowledge base for academic questions |
 | `fee_structure.pdf` | Knowledge base for fee questions |
 
